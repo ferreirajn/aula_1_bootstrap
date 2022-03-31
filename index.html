@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+  <head>
+    <title>Minha página bootstrap</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jéssica" />
+    <meta name="description" content="primeiros testes bootstrap" />
+    <meta name="keywords" content="html5, tecnologia, bootstrap" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap lb/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light navcolor">
+      <a class="navbar-brand" href="#">
+        <i class="fi fi-rs-home"></i>
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#quemsomos"> Quem somos? </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicos"> Serviços </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#parceiros"> Parceiros </a>
+          </li>
+        </ul>
+        <form class="d-flex ">
+          <input class="form-control me-2 navsearch" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <section id="quemsomos" class="margin">
+      <div class="container">
+        <h4>About us</h4>
+        <img
+          src="pexels-photo-3184418.jpeg"
+          width="200"
+          class="rounded-circle"
+          height="200"
+        />
+        <p>Somos um time comprometido e engajado com nossos projetos!</p>
+      </div>
+    </section>
+
+    <section id="parceiros" class="margin">
+      <div class="container-fluid text-center">
+        <h4> Nossos parceiros </h4>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <img src="logo1.jpg" width="150" class="roundedra" height="150">
+              </div>
+
+              <div class="col-lg-3">
+                <img src="logo2.png" width="150" class="roundedra" height="150">
+                </div>
+
+              <div class="col-lg-3">
+              <img src="logo3.png" width="170" class="roundedra" height="150">
+              </div>
+
+              <div class="col-lg-3">
+              <img src="logo4.jpg" width="150" class="roundedra" height="150">
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="servicos" class="margin">
+      <div class="container-fluid text-center">
+        <h4> Serviços </h4>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Contato</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Descreva suas necessidades</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <h5>Especialidades</h5>
+              <ul class="ul-alternate">
+                <li>Web design</li>
+                <li>Digital Marketing</li>
+                <li>Social Media</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center container-fluid bgfooter"> 
+      <p> Desenvolvido por Jéssica Ferreira © 2022 </p>
+    </footer>
+  </body>
+</html>

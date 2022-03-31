@@ -1,0 +1,98 @@
+body {
+  line-height: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+  margin: 2%;
+}
+
+section:first-of-type {
+  margin-top: 65px;
+}
+
+section:last-of-type {
+  border: none;
+}
+
+section {
+  border-bottom: 3px solid rgba(202, 199, 199, 0.26);
+}
+
+.fi-rs-home {
+  margin-left: 35px;
+  font-size: 1.25em;
+  padding-left: 40px;
+}
+
+#quemsomos {
+  text-align: center;
+}
+
+.navcolor {
+  background-color: rgb(218, 216, 213);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.margin {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 1%;
+}
+
+.navsearch {
+  margin-left: 550px;
+}
+
+.btn-outline-success {
+  border: 1px solid gray;
+  color: rgb(65, 65, 65);
+}
+.btn-outline-success:hover {
+  color: white;
+  background-color: gray;
+  border: 1px solid transparent;
+}
+
+.roundedra {
+  border-radius: 30%;
+}
+
+.bgfooter {
+  background-color: rgba(156, 153, 148, 0.521);
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.ul-alternate {
+  list-style-type: none;
+  padding-top: 3%;
+  padding-left: 0;
+  width: 70%;
+  margin: auto;
+}
+
+.ul-alternate li {
+  border-bottom: 2px solid rgb(226, 226, 226);
+  padding-left: 0;
+}
+
+.ul-alternate li:last-child {
+  border: 0;
+}
+
+.ul-icons {
+  list-style-type: none;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ul-icons li {
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+  font-size: 25px;
+  color: #49bf9d;
+}
